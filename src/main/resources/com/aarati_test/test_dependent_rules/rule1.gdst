@@ -45,7 +45,7 @@
       <width>-1</width>
       <header>npd_attr_10</header>
       <definition>
-        <org.drools.workbench.models.datamodel.rule.ActionInsertFact>
+        <org.drools.workbench.models.datamodel.rule.ActionUpdateField>
           <fieldValues>
             <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
               <field>npd_attr_10</field>
@@ -54,9 +54,8 @@
               <type>Long</type>
             </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
           </fieldValues>
-          <factType>cns_transaction_file</factType>
-          <isBound>false</isBound>
-        </org.drools.workbench.models.datamodel.rule.ActionInsertFact>
+          <variable>data</variable>
+        </org.drools.workbench.models.datamodel.rule.ActionUpdateField>
       </definition>
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
