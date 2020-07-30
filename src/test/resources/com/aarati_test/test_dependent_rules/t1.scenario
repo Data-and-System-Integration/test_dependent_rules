@@ -1,13 +1,27 @@
 <scenario>
-  <name>t1</name>
+  <name>t1.scenario</name>
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
-  <fixtures/>
+  <fixtures>
+    <fact-data>
+      <type>cns_transaction_file</type>
+      <fieldData>
+        <field-data>
+          <name>npd_attr_0</name>
+        </field-data>
+      </fieldData>
+      <name>a</name>
+      <isModify>false</isModify>
+    </fact-data>
+    <execution-trace/>
+  </fixtures>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.aarati_test.test_dependent_rules</packageName>
   <imports>
     <imports/>
   </imports>
-  <ksessions/>
+  <ksessions>
+    <string>defaultKieSession</string>
+  </ksessions>
 </scenario>
